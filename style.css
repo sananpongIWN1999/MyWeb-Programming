@@ -77,6 +77,7 @@ body {
   margin-top: 15px;
   width: 480px;
   font-size: 16px;
+  color: #000000;
 }
 
 
@@ -91,16 +92,18 @@ body {
   margin-top: 80px;
   float: left;
 }
+.info1_area h1 {
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
+}
 .info1_text {
   text-align: center;
   width: 460px;
   float: left;
   margin-left: 70px;
   margin-top: 140px;
-}
-.info1_area h1 {
-  margin: 0;
-  font-weight: normal;
+  color: #fff;
 }
 
 .info2 {
@@ -143,6 +146,7 @@ body {
   border: 2px solid rgb(243, 241, 241);
   width: 700px;
   padding: 10px;
+  border-radius: 25px;
 }
 
 .contact_area textarea {
@@ -150,6 +154,7 @@ body {
   border: 2px solid rgb(252, 248, 248);
   width: 700px;
   padding: 10px;
+  border-radius: 25px;
 }
 
 .contact_area button {
@@ -161,6 +166,7 @@ body {
   text-transform: uppercase;
   transition: all 0.3s ease;
   cursor: pointer;
+  border-radius: 25px;
 }
 .contact_area button:hover {
   background: #fff;
